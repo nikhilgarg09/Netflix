@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    width: 100vw;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 5px; 
+    height: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #090707;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #b82929;
+    border-radius: 10px;
+  }
+  
+  .hello ::-webkit-scrollbar {
+    width: 0px; 
+    height: 0px;
+  }
+  @media(max-width:1236) {
+    .TitlePara{
+        display: none;
+    } 
+  }
